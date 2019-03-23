@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+**Adaptive layout widths are hard coded at each media query, and can be used generally to quickly deploy to specific devices. 
+**Responsive layouts are percent based and developed to accomodate thousands of devices, taking longer to build. 
+
 2. Describe what it means to be mobile first vs desktop first.
+
+**A mobile first design is developed from the 'min-width' upwards, scaling the design outward towards larger screens. 
+**A desktop first design is engineered for larger screens and monitors of desktops and scaled down with breakpoints to meet accesibility needs in smaller tables, phablets, and phones. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+**This provides convenient ability of scaling rem units to be more like the sizing of px units whereas 'em' units under the same parameters creates an issue of compounding on page when it renders.  
+
 4. How would you describe preprocessing to someone new to CSS?
 
+**Preprocessing is a lot like knowing what you like to cook, and what ingredients are needed, before heading to the grocery store. Maybe, maybe not. This is a different method of styling a layout with a separate language that compiles and outputs your styles back to css. With the additional language introduced, we are afforded additional benefits and practical means of managing large web projects. Variables, Mixins, Parametric Variables, and Imports or seperating large style sheets into sizes that are easier to read, understand, and maintain. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+**Mixins would be my favorite concept so far which was a clear idea for me to grasp. Deciding what style groups, or blocks I will want to use on a project and determining them up front to call into the style tree is a clear advantage.  
+
+**Parametric Mixins however is something I am still working to understand better and master to the point of calling it up at any moment. The potential advantages to using this seem endless and I am going to take heed of the advice of using a simply styling a selector when that will get the job done to mvp. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

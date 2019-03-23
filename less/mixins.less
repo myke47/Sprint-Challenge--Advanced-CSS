@@ -1,1 +1,35 @@
 // Mixins Here
+.border-color-styles {
+  background-color: @nav-bg;
+  color: @nav-font;
+  border-color: @nav-border;
+} 
+
+.nav-size-pos {
+    flex-direction: column;
+    width: 100%;
+    margin: 1px auto;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-btn(@radius,@fontsize) {
+    background-color: @btn-bg-color;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    color: white;
+    font-size: @fontsize;
+    border-radius: @radius;
+    cursor: pointer;
+
+    &:hover {
+        background-color: white;
+        color: @btn-bg-color;
+    }
+
+
+}
+
