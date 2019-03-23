@@ -32,8 +32,19 @@
 
   .space-images {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
+
+    img {
+      margin: 20px 2.5%;
+      border-radius: 20px;
+      height: 100%;
+
+      @media @phone {
+        display: none;
+        }
+
+    }
 
     .blast-img {
       display: flex;
@@ -48,18 +59,23 @@
         }
 
     }
+    
+    .sky-img {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
 
-    img {
-      width: 28%;
-      margin: 20px 2.5%;
-      border-radius: 20px;
-      height: 100%;
-
-      @media @phone {
-        display: none;
-        }
 
     }
+
+    .launch-img {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+
+
+    }
+
   }
 
   .visit-planets {
