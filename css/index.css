@@ -231,7 +231,7 @@ p {
   .nav-container .nav-content .nav-main {
     display: flex;
     align-items: baseline;
-    width: 100%;
+    width: 98%;
   }
 }
 .nav-container .nav-content a {
