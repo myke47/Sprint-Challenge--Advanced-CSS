@@ -226,6 +226,16 @@ p {
 .nav-container .nav-content .nav-logo h1 {
   font-size: 4.5rem;
 }
+@media (max-width: 768px) {
+  .nav-container .nav-content .nav-logo h1 {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 500px) {
+  .nav-container .nav-content .nav-logo h1 {
+    font-size: 3.5rem;
+  }
+}
 @media (max-width: 500px) {
   .nav-container .nav-content .nav-logo {
     display: flex;
