@@ -288,7 +288,7 @@ footer {
 @media (max-width: 768px) {
   .home {
     flex-direction: column;
-    padding: 1%;
+    padding: 0% 1%;
     margin: 0px;
     width: 100%;
   }
@@ -297,20 +297,19 @@ footer {
   flex-direction: column;
   width: 100%;
   margin: auto;
-  padding: 1%;
 }
 @media (max-width: 500px) {
   .home .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1%;
+    padding: 0% 1%;
   }
 }
 @media (max-width: 768px) {
   .home .intro {
     flex-direction: column;
-    padding: 1%;
+    padding: 0% 1%;
     margin: 0px;
     width: 100%;
   }
